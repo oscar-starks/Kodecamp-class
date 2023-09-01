@@ -51,6 +51,8 @@ def homepage(request):
 </body>
 </html>""")
 
+
+
 def about(request):
     return render(request, 'home/coffee.html')
     
